@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ratehttp"
+version = "0.1.3"
+homepage = "https://github.com/dreambe/ratehttp"
+repository = "https://github.com/dreambe/ratehttp"
+readme = "README.md"
+keywords = ["rate limiting", "concurrent api", "python", "https://docs.aiohttp.org"]
+description = "ratehttp is fork from octopus-api based on aiohttp, and ratehttp provides ssl-verify setting"
+authors = ["Shark <shaoki.wang@gmail.com>"]
+license = "GNU GENERAL PUBLIC LICENSE"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+asyncio = "^3.4.3"
+aiohttp = "^3.8.1"
+tqdm = "^4.62.3"
+
+[tool.poetry.dev-dependencies]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
